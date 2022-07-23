@@ -1,35 +1,253 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="8" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-22T02:02:54 IST" name="Suite" finished-at="2022-07-22T02:02:56 IST" duration-ms="1540">
+  <suite started-at="2022-07-23T14:15:37 IST" name="Suite" finished-at="2022-07-23T14:16:05 IST" duration-ms="27747">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:StepDefination.TestRunner@6b2ea799]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
+      <group name="API">
+        <method signature="NewClassGITTest.NewClaaMethodGIT()[pri:0, instance:MvnPro.MvnJava.NewClassGITTest@36902638]" name="NewClaaMethodGIT" class="MvnPro.MvnJava.NewClassGITTest"/>
+        <method signature="RestAPITest.NewMethodGIT()[pri:0, instance:MvnPro.MvnJava.RestAPITest@3023df74]" name="NewMethodGIT" class="MvnPro.MvnJava.RestAPITest"/>
+        <method signature="RestAPITest.TestJira()[pri:0, instance:MvnPro.MvnJava.RestAPITest@3023df74]" name="TestJira" class="MvnPro.MvnJava.RestAPITest"/>
+        <method signature="RestAPITest.TestTFS()[pri:0, instance:MvnPro.MvnJava.RestAPITest@3023df74]" name="TestTFS" class="MvnPro.MvnJava.RestAPITest"/>
+      </group> <!-- API -->
     </groups>
-    <test started-at="2022-07-22T02:02:54 IST" name="Test" finished-at="2022-07-22T02:02:56 IST" duration-ms="1540">
-      <class name="StepDefination.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:StepDefination.TestRunner@6b2ea799]" started-at="2022-07-22T02:02:54 IST" name="setUpClass" finished-at="2022-07-22T02:02:55 IST" duration-ms="638" status="PASS">
+    <test started-at="2022-07-23T14:15:37 IST" name="Test" finished-at="2022-07-23T14:16:05 IST" duration-ms="27747">
+      <class name="MvnPro.MvnJava.RestAPITest">
+        <test-method signature="NewMethodGIT()[pri:0, instance:MvnPro.MvnJava.RestAPITest@3023df74]" started-at="2022-07-23T14:15:52 IST" name="NewMethodGIT" finished-at="2022-07-23T14:15:52 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at MvnPro.MvnJava.RestAPITest.NewMethodGIT(RestAPITest.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:StepDefination.TestRunner@6b2ea799]" started-at="2022-07-22T02:02:55 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-07-22T02:02:56 IST" duration-ms="560" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Application Login]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- NewMethodGIT -->
+        <test-method signature="TestJira()[pri:0, instance:MvnPro.MvnJava.RestAPITest@3023df74]" started-at="2022-07-23T14:15:52 IST" name="TestJira" finished-at="2022-07-23T14:15:52 IST" duration-ms="19" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at MvnPro.MvnJava.RestAPITest.TestJira(RestAPITest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:StepDefination.TestRunner@6b2ea799]" started-at="2022-07-22T02:02:56 IST" name="tearDownClass" finished-at="2022-07-22T02:02:56 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- TestJira -->
+        <test-method signature="TestTFS()[pri:0, instance:MvnPro.MvnJava.RestAPITest@3023df74]" started-at="2022-07-23T14:15:52 IST" name="TestTFS" finished-at="2022-07-23T14:15:52 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at MvnPro.MvnJava.RestAPITest.TestTFS(RestAPITest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- StepDefination.TestRunner -->
+        </test-method> <!-- TestTFS -->
+      </class> <!-- MvnPro.MvnJava.RestAPITest -->
+      <class name="MvnPro.MvnJava.SelJavaTest">
+        <test-method signature="BrowserAuto()[pri:0, instance:MvnPro.MvnJava.SelJavaTest@4562e04d]" started-at="2022-07-23T14:16:05 IST" name="BrowserAuto" finished-at="2022-07-23T14:16:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAuto -->
+        <test-method signature="ElementUI()[pri:0, instance:MvnPro.MvnJava.SelJavaTest@4562e04d]" started-at="2022-07-23T14:16:05 IST" name="ElementUI" finished-at="2022-07-23T14:16:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementUI -->
+      </class> <!-- MvnPro.MvnJava.SelJavaTest -->
+      <class name="MvnPro.MvnJava.ExtentReportTest">
+        <test-method is-config="true" signature="confg()[pri:0, instance:MvnPro.MvnJava.ExtentReportTest@4c371370]" started-at="2022-07-23T14:15:37 IST" name="confg" finished-at="2022-07-23T14:15:37 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confg -->
+        <test-method signature="InitialDemo()[pri:0, instance:MvnPro.MvnJava.ExtentReportTest@4c371370]" started-at="2022-07-23T14:15:37 IST" name="InitialDemo" finished-at="2022-07-23T14:15:52 IST" duration-ms="14248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialDemo -->
+      </class> <!-- MvnPro.MvnJava.ExtentReportTest -->
+      <class name="MvnPro.MvnJava.RediffLoginAppTest">
+        <test-method signature="login()[pri:0, instance:MvnPro.MvnJava.RediffLoginAppTest@313ac989]" started-at="2022-07-23T14:15:52 IST" name="login" finished-at="2022-07-23T14:16:05 IST" duration-ms="12686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- MvnPro.MvnJava.RediffLoginAppTest -->
+      <class name="MvnPro.MvnJava.AppiumTest">
+        <test-method signature="IOS()[pri:0, instance:MvnPro.MvnJava.AppiumTest@145f66e3]" started-at="2022-07-23T14:15:52 IST" name="IOS" finished-at="2022-07-23T14:15:52 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOS -->
+        <test-method signature="NativeApp()[pri:0, instance:MvnPro.MvnJava.AppiumTest@145f66e3]" started-at="2022-07-23T14:15:52 IST" name="NativeApp" finished-at="2022-07-23T14:15:52 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeApp -->
+      </class> <!-- MvnPro.MvnJava.AppiumTest -->
+      <class name="MvnPro.MvnJava.NewClassGITTest">
+        <test-method signature="NewClaaMethodGIT()[pri:0, instance:MvnPro.MvnJava.NewClassGITTest@36902638]" started-at="2022-07-23T14:15:37 IST" name="NewClaaMethodGIT" finished-at="2022-07-23T14:15:37 IST" duration-ms="17" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at MvnPro.MvnJava.NewClassGITTest.NewClaaMethodGIT(NewClassGITTest.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewClaaMethodGIT -->
+      </class> <!-- MvnPro.MvnJava.NewClassGITTest -->
+      <class name="MvnPro.MvnJava.SeleniumTest">
+        <test-method signature="LoginPage()[pri:0, instance:MvnPro.MvnJava.SeleniumTest@2a65fe7c]" started-at="2022-07-23T14:16:05 IST" name="LoginPage" finished-at="2022-07-23T14:16:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+      </class> <!-- MvnPro.MvnJava.SeleniumTest -->
+      <class name="CoreJava.LoopTest">
+        <test-method signature="ForLoop()[pri:0, instance:CoreJava.LoopTest@4135c3b]" started-at="2022-07-23T14:16:05 IST" name="ForLoop" finished-at="2022-07-23T14:16:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForLoop -->
+      </class> <!-- CoreJava.LoopTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

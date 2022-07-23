@@ -8,6 +8,14 @@ import org.testng.annotations.Test;
 public class RestAPITest {
 	
 	@Test(groups="API")
+	private void NewMethodGIT() {
+		// TODO Auto-generated method stub
+System.out.println("NewMethodGIT");
+Assert.assertTrue(false);
+	}
+	
+	
+	@Test(groups="API")
 	private void TestJira() {
 		// TODO Auto-generated method stub
 System.out.println("TestJira");

@@ -3,12 +3,15 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-     	 <class name="MvnPro.MvnJava.AppiumTest"/>
-      	 <class name="MvnPro.MvnJava.RestAPITest"/>
-      	 <class name="MvnPro.MvnJava.SelJavaTest"/>
-   	 	 <class name="MvnPro.MvnJava.SeleniumTest"/>
-  		 <class name="MvnPro.MvnJava.RediffLoginAppTest"/>
-     	 <class name="MvnPro.MvnJava.CheckDataTest"/>
+     	 <class name="MvnPro.MvnJava.NewClassGITTest"/>
+      <class name="MvnPro.MvnJava.ExtentReportTest"/>
+      <class name="MvnPro.MvnJava.AppiumTest"/>
+      <class name="MvnPro.MvnJava.RestAPITest"/>
+      <class name="MvnPro.MvnJava.RediffLoginAppTest"/>
+      <class name="MvnPro.MvnJava.PractCodeTest"/>
+      <class name="MvnPro.MvnJava.SelJavaTest"/>
+      <class name="MvnPro.MvnJava.SeleniumTest"/>
+      <class name="CoreJava.LoopTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

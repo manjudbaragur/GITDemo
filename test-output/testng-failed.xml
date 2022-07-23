@@ -3,11 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="MvnPro.MvnJava.RediffLoginAppTest">
+      <class name="MvnPro.MvnJava.NewClassGITTest">
         <methods>
-          <include name="login"/>
+          <include name="NewClaaMethodGIT"/>
         </methods>
-      </class> <!-- MvnPro.MvnJava.RediffLoginAppTest -->
+      </class> <!-- MvnPro.MvnJava.NewClassGITTest -->
+      <class name="MvnPro.MvnJava.RestAPITest">
+        <methods>
+          <include name="NewMethodGIT"/>
+          <include name="TestTFS"/>
+          <include name="TestJira"/>
+        </methods>
+      </class> <!-- MvnPro.MvnJava.RestAPITest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
