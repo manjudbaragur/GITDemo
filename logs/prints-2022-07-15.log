@@ -1,0 +1,9 @@
+23:58:03.949 [main] ERROR alpha.log4jTest - Logging Error
+23:58:03.953 [main] FATAL alpha.log4jTest - This is fatal
+23:58:52.727 [main] DEBUG Beta.log4jTest2 - Logging Debug
+23:58:52.732 [main] ERROR Beta.log4jTest2 - Logging Error
+23:58:52.732 [main] INFO  Beta.log4jTest2 - This is Info
+23:58:52.732 [main] FATAL Beta.log4jTest2 - This is fatal
+23:59:10.033 [main] ERROR alpha.log4jTest - Logging Error
+23:59:10.037 [main] FATAL alpha.log4jTest - This is fatal
+23:59:33.436 [main] DEBUG Beta.log4jTest2 - Logging Debug

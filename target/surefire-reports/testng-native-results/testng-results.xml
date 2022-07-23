@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T01:30:29 IST" name="Surefire suite" finished-at="2022-07-14T01:30:29 IST" duration-ms="80">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T01:30:29 IST" name="Surefire test" finished-at="2022-07-14T01:30:29 IST" duration-ms="80">
+      <class name="MvnPro.MvnJava.SelJavaTest">
+        <test-method signature="BrowserAuto()[pri:0, instance:MvnPro.MvnJava.SelJavaTest@1a0dcaa]" started-at="2022-07-14T01:30:29 IST" name="BrowserAuto" finished-at="2022-07-14T01:30:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAuto -->
+        <test-method signature="ElementUI()[pri:0, instance:MvnPro.MvnJava.SelJavaTest@1a0dcaa]" started-at="2022-07-14T01:30:29 IST" name="ElementUI" finished-at="2022-07-14T01:30:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementUI -->
+      </class> <!-- MvnPro.MvnJava.SelJavaTest -->
+      <class name="MvnPro.MvnJava.RestAPITest">
+        <test-method signature="TestJira()[pri:0, instance:MvnPro.MvnJava.RestAPITest@71c8becc]" started-at="2022-07-14T01:30:29 IST" name="TestJira" finished-at="2022-07-14T01:30:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestJira -->
+        <test-method signature="TestTFS()[pri:0, instance:MvnPro.MvnJava.RestAPITest@71c8becc]" started-at="2022-07-14T01:30:29 IST" name="TestTFS" finished-at="2022-07-14T01:30:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTFS -->
+      </class> <!-- MvnPro.MvnJava.RestAPITest -->
+      <class name="MvnPro.MvnJava.AppiumTest">
+        <test-method signature="IOS()[pri:0, instance:MvnPro.MvnJava.AppiumTest@2b6856dd]" started-at="2022-07-14T01:30:29 IST" name="IOS" finished-at="2022-07-14T01:30:29 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOS -->
+        <test-method signature="NativeApp()[pri:0, instance:MvnPro.MvnJava.AppiumTest@2b6856dd]" started-at="2022-07-14T01:30:29 IST" name="NativeApp" finished-at="2022-07-14T01:30:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NativeApp -->
+      </class> <!-- MvnPro.MvnJava.AppiumTest -->
+      <class name="MvnPro.MvnJava.SeleniumTest">
+        <test-method signature="LoginPage()[pri:0, instance:MvnPro.MvnJava.SeleniumTest@19d37183]" started-at="2022-07-14T01:30:29 IST" name="LoginPage" finished-at="2022-07-14T01:30:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+      </class> <!-- MvnPro.MvnJava.SeleniumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

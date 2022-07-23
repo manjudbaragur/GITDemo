@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <!--   <class name="MvnPro.MvnJava.ExtentReportTest"/>
+      <class name="MvnPro.MvnJava.AppiumTest"/>
+      <class name="MvnPro.MvnJava.RestAPITest"/>
+      <class name="MvnPro.MvnJava.RediffLoginAppTest"/>
+      <class name="MvnPro.MvnJava.PractCodeTest"/>
+      <class name="MvnPro.MvnJava.SelJavaTest"/>
+      <class name="MvnPro.MvnJava.SeleniumTest"/>
+      <class name="CoreJava.LoopTest"/> -->
+      <class name="StepDefination.TestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
