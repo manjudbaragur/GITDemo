@@ -16,6 +16,7 @@ public class log4jTest2 {
 		log.info("This is Info");
 		
 		log.fatal("This is fatal");
+		
 
 		
 		

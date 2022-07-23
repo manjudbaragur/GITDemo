@@ -17,6 +17,13 @@ public class log4jTest {
 		log.info("This is Info");
 		
 		log.fatal("This is fatal");
+		log.debug("Logging Debug");
+		
+		log.error("Logging Error");
+		
+		log.info("This is Info");
+		
+		log.fatal("This is fatal");
 
 		
 		
